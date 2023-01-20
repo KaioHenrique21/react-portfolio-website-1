@@ -1,10 +1,8 @@
-import React from 'react'
-import './experience'
+import React from "react";
+import "./experience.css";
 
 function Experience() {
-  return (
-	<div>Experience</div>
-  )
+  return <div>Experience</div>;
 }
 
-export default Experience
+export default Experience;
