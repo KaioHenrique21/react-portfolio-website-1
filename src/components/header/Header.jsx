@@ -6,7 +6,7 @@ import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Kaio Oliveira</h1>
@@ -18,10 +18,12 @@ const Header = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll___down'>Scroll Down</a>
+        <a href="#contact" className="scroll___down">
+          Scroll Down
+        </a>
       </div>
     </header>
-  )
+  );
 }
 
 export default Header;
