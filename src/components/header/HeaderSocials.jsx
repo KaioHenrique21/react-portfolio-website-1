@@ -6,13 +6,25 @@ import {FiInstagram} from 'react-icons/fi'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.linkedin.com/in/kaio-henrique-2378b51a2/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/KaioHenrique21"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithub />
       </a>
-      <a href="https://dribblee.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.instagram.com/kaiooliveira97/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FiInstagram />
       </a>
     </div>
